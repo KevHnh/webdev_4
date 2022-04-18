@@ -21,13 +21,13 @@ export default function Header() {
             </div>
 
             <div className="Header_right">
-                <button onClick={() => redirectButton("/userProfile")} className="linkButton">User Profile</button>
+                <button onClick={() => redirectButton("/webdev_4/userProfile")} className="linkButton">User Profile</button>
 
-                <button onClick={() => redirectButton("/login")}  className="linkButton">Login</button>
+                <button onClick={() => redirectButton("/webdev_4/login")}  className="linkButton">Login</button>
 
-                <button onClick={() => redirectButton("/credits")} className="linkButton">Credits</button>
+                <button onClick={() => redirectButton("/webdev_4/credits")} className="linkButton">Credits</button>
 
-                <button onClick={() => redirectButton("/debits")}  className="linkButton">Debits</button>
+                <button onClick={() => redirectButton("/webdev_4/debits")}  className="linkButton">Debits</button>
 
 
             </div>
