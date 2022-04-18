@@ -149,11 +149,11 @@ const InitialApp = () => {
       return (
         <Router>
           <div>
-            <Route exact path="/" render={HomeComponent}/>
-            <Route exact path="/userProfile" render={UserProfileComponent}/>
-            <Route exact path="/login" render={LogInComponent}/>
-            <Route exact path="/credits" render={CreditComponent}/>
-            <Route exact path="/debits" render={DebitComponent}/>
+            <Route exact path="/webdev_4/" render={HomeComponent}/>
+            <Route exact path="/webdev_4/userProfile" render={UserProfileComponent}/>
+            <Route exact path="/webdev_4/login" render={LogInComponent}/>
+            <Route exact path="/webdev_4/credits" render={CreditComponent}/>
+            <Route exact path="/webdev_4/debits" render={DebitComponent}/>
           </div>
         </Router>
       );

@@ -13,13 +13,13 @@ class Home extends Component {
         <img src="https://picsum.photos/200/200" alt="bank"/>
         <h1>Bank of React</h1>
 
-        <Link to="/userProfile">User Profile</Link>
+        <Link to="/webdev_4/userProfile">User Profile</Link>
         <br/>
-        <Link to="/login">Login</Link>
+        <Link to="/webdev_4/login">Login</Link>
         <br/>
-        <Link to="/credits">Credits</Link>
+        <Link to="/webdev_4/credits">Credits</Link>
         <br/>
-        <Link to="/debits">Debits</Link>
+        <Link to="/webdev_4/debits">Debits</Link>
         
         <AccountBalance accountBalance={this.props.accountBalance}/>
       </div>

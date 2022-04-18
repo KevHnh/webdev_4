@@ -17,7 +17,7 @@ export default function Header() {
 
             <div className="Header_left">
             
-                <button onClick={() => redirectButton("/")} className="homeButton">Home</button>
+                <button onClick={() => redirectButton("/webdev_4/")} className="homeButton">Home</button>
             </div>
 
             <div className="Header_right">

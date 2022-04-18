@@ -224,17 +224,17 @@ const Debits = (props) => {
                     {/* route buttons */}
                     <div className="debitHeader">
                         <div className="debitHeader_left">
-                            <button onClick={(e) => {this.debitUpdate(e, '/')}} className="debit_homeButton">Home</button>
+                            <button onClick={(e) => {this.debitUpdate(e, '/webdev_4/')}} className="debit_homeButton">Home</button>
                         </div>
             
                         <div className="debitHeader_right">
-                            <button onClick={(e) => {this.debitUpdate(e, "/userProfile")}} className="debit_linkButton">User Profile</button>
+                            <button onClick={(e) => {this.debitUpdate(e, "/webdev_4/userProfile")}} className="debit_linkButton">User Profile</button>
             
-                            <button onClick={(e) => {this.debitUpdate(e, "/login")}} className="debit_linkButton">Login</button>
+                            <button onClick={(e) => {this.debitUpdate(e, "/webdev_4/login")}} className="debit_linkButton">Login</button>
             
-                            <button  onClick={(e) => {this.debitUpdate(e, "/credits")}} className="debit_linkButton">Credits</button>
+                            <button  onClick={(e) => {this.debitUpdate(e, "/webdev_4/credits")}} className="debit_linkButton">Credits</button>
             
-                            <button  onClick={(e) => {this.debitUpdate(e, "/debits")}} className="debit_linkButton">Debits</button>
+                            <button  onClick={(e) => {this.debitUpdate(e, "/webdev_4/debits")}} className="debit_linkButton">Debits</button>
                         </div>
                     </div>
 

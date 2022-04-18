@@ -216,17 +216,17 @@ const Credits = (props) => {
                     {/* route buttons */}
                      <div className="creditHeader">
                         <div className="creditHeader_left">
-                            <button onClick={(e) => {this.creditUpdate(e, '/')}} className="credit_homeButton">Home</button>
+                            <button onClick={(e) => {this.creditUpdate(e, '/webdev_4/')}} className="credit_homeButton">Home</button>
                         </div>
             
                         <div className="creditHeader_right">
-                            <button onClick={(e) => {this.creditUpdate(e, "/userProfile")}} className="credit_linkButton">User Profile</button>
+                            <button onClick={(e) => {this.creditUpdate(e, "/webdev_4/userProfile")}} className="credit_linkButton">User Profile</button>
             
-                            <button onClick={(e) => {this.creditUpdate(e, "/login")}} className="credit_linkButton">Login</button>
+                            <button onClick={(e) => {this.creditUpdate(e, "/webdev_4/login")}} className="credit_linkButton">Login</button>
             
-                            <button  onClick={(e) => {this.creditUpdate(e, "/credits")}} className="credit_linkButton">Credits</button>
+                            <button  onClick={(e) => {this.creditUpdate(e, "/webdev_4/credits")}} className="credit_linkButton">Credits</button>
             
-                            <button  onClick={(e) => {this.creditUpdate(e, "/debits")}} className="credit_linkButton">Debits</button>
+                            <button  onClick={(e) => {this.creditUpdate(e, "/webdev_4/debits")}} className="credit_linkButton">Debits</button>
                         </div>
                     </div>
 
