@@ -1,0 +1,43 @@
+.Header{
+    position:sticky;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #47626a;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+
+.homeButton{
+    margin-right: 20px;
+    border: 1px solid white;
+    padding:25px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5)
+}
+
+.homeButton:hover{
+    border:1px solid red;
+    
+}
+
+.linkButton{
+    margin-right: 20px;
+    border: 1px solid white;
+    padding:25px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5)
+   
+}
+
+.linkButton:hover{
+    border:1px solid red;
+    
+}
+
+.Header_right{
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+}

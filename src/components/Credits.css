@@ -1,0 +1,160 @@
+.creditsContainer {
+    width:100%;
+    background-color: white;
+}
+
+.creditsMain {
+    background: red;
+
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+}
+
+.creditsBody {
+    padding-top: 100px;
+}
+
+.creditsLeft {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    float:left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.creditsRight {
+    width: 60%;
+    float:right;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.formBox {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.submitBox {
+    padding: 10px;
+    background-color: #47626a;
+    color: white;
+    font-size: 20px;
+}
+
+.submitBox:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    color: #47626a;
+}
+
+.creditsCardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.creditsCard {
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    font-size: 20px;
+}
+
+.creditsCard:hover {
+    background-color: #47626a;
+    color: white;
+}
+
+.infoDiv {
+    text-align: left;
+}
+
+.newEntryCardContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    float:right;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.newEntryCard {
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.newEntryCard:hover {
+    background-color: #47626a;
+    color: white;
+}
+
+.creditHeader{
+    top:0;
+    width: 100%;
+    position:fixed;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #47626a;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+
+.credit_homeButton{
+    margin-right: 20px;
+    border: 1px solid white;
+    padding:25px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5)
+}
+
+.credit_homeButton:hover{
+    border:1px solid red;
+    
+}
+
+.credit_linkButton{
+    margin-right: 20px;
+    border: 1px solid white;
+    padding:25px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5)
+   
+}
+
+.credit_linkButton:hover{
+    border:1px solid red;
+    
+}
+
+.creditHeader_right{
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+}
